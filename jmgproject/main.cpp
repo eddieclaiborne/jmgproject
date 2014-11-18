@@ -45,8 +45,8 @@ void make_intro_window(){
     sbutton->labelfont(FL_BOLD);
     sbutton->labelsize(36);
     sbutton->labeltype(FL_SHADOW_LABEL);
-    
     window->end();
+    
     lbutton->callback( (Fl_Callback*) library_cb);
     sbutton->callback( (Fl_Callback*) upload_cb);
     window->show();
